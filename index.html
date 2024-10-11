@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple-PaymentGateway</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Payment Gateway</h1>
+    <label id="myLabel1" for="myInput">Enter your net amount:</label><br>
+    <input id="myInput1" type="text"><br>
+
+    <h2 id="myH3">Please Select Your Payment Method</h2>
+<div class="creditCards">
+    <input type="radio" id="myVisaCard" name="Cards" class="creditCards">
+    <label for="myVisaCard">Visa</label><br>
+    <input type="radio" id="myMasterCard" name="Cards" class="creditCards">
+    <label for="myMasterCard">MasterCard</label><br>
+    <input type="radio" id="myPayPal" name="Cards" class="creditCards">
+    <label for="myPayPal">PayPal</label><br>
+    <input type="radio" id="myRuPay" name="Cards" class="creditCards">
+    <label for="myRuPay">Rupay</label><br>
+</div>
+
+<button id="mySubmit1">Submit</button>
+
+<p id="myP1"></p>
+<p id="myP2"></p>
+
+<button id="myPayment1">Confirm Payment</button>
+
+<p id="myP3"></p>
+<div id="outputBox">
+    <div id="printAmount">
+<p id="myP4"></p>
+<p id="myP5"></p>
+<p id="myP6"></p>
+<p id="myP7"></p>
+    </div>
+</div>
+<p id="myP8"></p>
+
+    <script src="index.js"></script>
+</body>
+
+</html>

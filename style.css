@@ -1,0 +1,103 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+#myLabel1 {
+    font-size: 1.3em;
+    padding: 15px 20px;
+}
+#myInput1 {
+    font-size: 1.6em;
+    border-radius: 21px;
+    border-style: solid;
+    padding: 5px 15px;
+    margin: 6px 12px;
+}
+#mySubmit1 {
+    font-size: 1.5em;
+    border-radius: 15px;
+    border-style: none;
+    margin: 8px 12px;
+    padding: 6px 15px;
+    background-color: rgb(255, 0, 157);
+    color: white;
+    cursor: pointer;
+}
+#mySubmit1:hover {
+    background-color: rgb(110, 0, 212);
+    transition: ease-in-out 0.3s;
+}
+#myP1 {
+    font-size: 1.4em;
+    margin: 6px 10px;
+}
+#myP2 {
+    font-size: 1.4em;
+    margin: 6px 10px;
+}
+#myH3{
+    font-size: 1.5em;
+    margin: 5px 12px;
+}
+.creditCards{
+    font-size: 1.7em;
+    text-align: left;
+    padding: 0.5em 2.3em;
+}
+#myPayment1{
+    font-size: 1.5em;
+    border-radius: 15px;
+    border-style: none;
+    margin: 8px 12px;
+    padding: 6px 15px;
+    background-color: rgb(255, 0, 157);
+    color: white;
+    cursor: pointer;
+}
+#myPayment1:hover {
+    background-color: rgb(110, 0, 212);
+    transition: ease-in-out 0.3s;
+}
+#myP3{
+    font-size: 1.7em;
+    margin: 6px 10px;
+    font-weight: 350;
+}
+#myP4{
+    font-size: 1.4em;
+    margin: 6px 10px;
+    text-align: start;
+}
+#myP5{
+    font-size: 1.4em;
+    margin: 6px 10px;
+    text-align: start;
+}
+#myP6{
+    font-size: 1.4em;
+    margin: 6px 10px;
+    text-align: start;
+}
+#myP7{
+    font-size: 1.4em;
+    margin: 6px 10px;
+    text-align: start;
+}
+#outputBox{
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5em 2.8em;
+}
+#printAmount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#myP8{
+    font-size: 1.7em;
+    font-weight: 300;
+    margin: 6px 10px; 
+}
